@@ -1,3 +1,4 @@
 # SoccerAdBannerSegmentation-Replacement
-Deep Learning project about ad banner detection and replacement in soccer matches videos
+Deep Learning project about ad banner detection and replacement in soccer matches videos.
+
 Code Base from: https://debuggercafe.com/dinov2-for-semantic-segmentation
