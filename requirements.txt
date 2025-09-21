@@ -1,0 +1,8 @@
+torchinfo==1.8.0
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+albumentations==1.4.21
+opencv-python
+tqdm
+matplotlib==3.9.2

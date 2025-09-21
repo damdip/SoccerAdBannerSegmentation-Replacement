@@ -1,9 +1,3 @@
-# SoccerAdBannerSegmentation-Replacement
-Deep Learning project about ad banner detection and replacement in soccer matches videos.
-
-Code Base from: https://debuggercafe.com/dinov2-for-semantic-segmentation
-
-
 # DINOv2 for Semantic Segmentation
 
 This project implements semantic segmentation using Facebook's DINOv2 vision transformer as the backbone. It's designed to perform pixel-wise classification of images, where each pixel is assigned to a specific class.
@@ -101,7 +95,3 @@ Main dependencies:
 
 - The model expects input dimensions to be multiples of 14 (DINOv2's patch size) minus padding (4 pixel for each side)
 - xFormers optimization is optional but can improve training performance if available
-
-
-
-Generated with Claude Sonnet :)
