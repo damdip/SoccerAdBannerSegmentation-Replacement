@@ -1,6 +1,6 @@
 # Soccer Ad Banner Segmentation & Replacement
 
-This project implements semantic segmentation for detecting and replacing advertising banners in soccer footage using state-of-the-art Vision Transformer models (DINOv2 and DINOv3). The system can accurately identify TV monitor/banner areas in soccer images and videos, enabling automated advertisement replacement.
+This project implements semantic segmentation for detecting advertising banners in soccer footage using state-of-the-art Vision Transformer models (DINOv2 and DINOv3). The system can accurately identify TV monitor/banner areas in soccer images and videos, enabling automated advertisement replacement.
 
 ## 🎯 Project Overview
 
