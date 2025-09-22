@@ -208,21 +208,3 @@ Key improvements in DINOv3:
 
 To migrate existing models, retrain with DINOv3 using similar hyperparameters but adjusted batch sizes.
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **CUDA out of memory**: Reduce batch size or image dimensions
-2. **Model download fails**: Check internet connection and Hugging Face access
-3. **Poor segmentation quality**: Increase training epochs or use larger model
-4. **Input dimension errors**: Ensure dimensions are multiples of 16 (DINOv3)
-
-### Performance Tips
-
-- Use GPU for training (CPU inference is possible but slow)
-- Start with smaller models and scale up based on results
-- Monitor GPU memory usage and adjust batch size accordingly
-- Use mixed precision training for memory efficiency
-
-
-**Note**: This project is designed for research and educational purposes. For production use, ensure proper testing and validation on your specific data.
