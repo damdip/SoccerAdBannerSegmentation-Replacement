@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-09-01 14:58:36",
+  "user": "gabrulele",
+  "step": "1 - Dataset Analysis & Smart Sampling",
+  "status": "COMPLETED",
+  "dataset_analysis": {
+    "total_images": 8181,
+    "total_objects": 17467,
+    "classes": [
+      "gazprom",
+      "playstation",
+      "nissan",
+      "mastercard",
+      "pepsi",
+      "heineken"
+    ],
+    "class_distribution": {
+      "gazprom": 2287,
+      "playstation": 2259,
+      "nissan": 2160,
+      "mastercard": 2362,
+      "pepsi": 1820,
+      "heineken": 2514
+    },
+    "complexity_distribution": {
+      "simple": 2752,
+      "medium": 3951,
+      "complex": 1478
+    },
+    "size_distribution": {
+      "medium": 7638,
+      "large": 172,
+      "small": 371
+    }
+  },
+  "smart_sampling": {
+    "strategy": "Multi-criteria intelligent sampling",
+    "target_fraction": 0.3,
+    "target_count": 2454,
+    "selected_count": 2454,
+    "sampling_breakdown": {
+      "quality_based": 981,
+      "complexity_balanced": 735,
+      "class_balanced": 486,
+      "random_diverse": 252
+    },
+    "quality_metrics": {
+      "avg_quality_score": 51.31148882932616,
+      "avg_complexity_score": 13.894050529747352,
+      "mask_coverage": 0.9995925020374898
+    }
+  },
+  "next_steps": {
+    "step_2": "Data Preprocessing & Augmentation Pipeline",
+    "estimated_time": "15-20 minutes",
+    "memory_requirement": "~500MB peak"
+  }
+}

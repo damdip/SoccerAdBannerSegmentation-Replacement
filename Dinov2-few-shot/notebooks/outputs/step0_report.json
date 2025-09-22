@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-01 14:43:02",
+  "user": "gabrulele",
+  "step": "0 - Setup & Diagnostica",
+  "status": "COMPLETED",
+  "hardware": {
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "cuda_device_name": "NVIDIA GeForce MX130",
+    "cuda_memory_total": 2.147352576,
+    "cuda_memory_reserved": 0.0,
+    "cuda_memory_allocated": 0.0,
+    "cuda_memory_free": 2.147352576,
+    "cpu_count": 2,
+    "torch_version": "2.5.1+cu121",
+    "torchvision_version": "0.20.1+cu121"
+  },
+  "config": {
+    "target_size": 384,
+    "batch_size": 2,
+    "virtual_batch_size": 8,
+    "device_strategy": "Backbone: cuda, Head: cuda",
+    "dataset_fraction": 0.3,
+    "seed": 42,
+    "architecture": "DINOv3-small + 4-layer fusion + lightweight head"
+  },
+  "dataset": {
+    "path": "/home/gabriele/FootballAdChanger/notebooks/data_dinov3",
+    "images_dir": "/home/gabriele/FootballAdChanger/notebooks/data_dinov3/images",
+    "annotations_dir": "/home/gabriele/FootballAdChanger/notebooks/data_dinov3/annotations",
+    "num_images": 8181,
+    "num_annotations": 8181,
+    "total_size_gb": 7.4,
+    "subset_size_gb": 2.2,
+    "has_bitmap_masks": true,
+    "original_resolution": "1280x720",
+    "target_resolution": "384x384"
+  },
+  "memory_benchmark": {
+    "peak_memory_mb": 10.7,
+    "vram_utilization_percent": 0.5,
+    "status": "OPTIMAL",
+    "safety_margin": "Very High"
+  }
+}

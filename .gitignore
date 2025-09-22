@@ -17,3 +17,6 @@ dinov3/outputs
 .DS_Store
 Thumbs.db
 
+# Ignora dati utilizzati
+Dinov2-few-shot/notebooks/data_dinov3
+Dinov2-few-shot/data
